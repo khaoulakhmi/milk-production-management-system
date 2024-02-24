@@ -1,0 +1,15 @@
+.dash {
+  background-color: #3267ac;
+}
+.leftPanel
+{
+  width: 15%;
+  float: left;
+}
+
+
+.rightPanel
+{
+  width: 85%;
+  float: right;
+}

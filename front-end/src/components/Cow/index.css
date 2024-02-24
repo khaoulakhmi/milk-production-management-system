@@ -1,0 +1,35 @@
+.showCow {
+    
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top:15
+}
+
+/* styles.css */
+
+.addCow {
+
+    padding: 20px;
+    justify-content: flex-end;
+    display: flex;
+    
+  }
+  .cowPage {
+    margin: 3%;
+    justify-content: center; /* Align content to the right */
+    
+}
+
+.addCowButtonContainer {
+    margin-right: 20px; /* Add some space between the button and the edge of the screen */
+}
+
+.addCowButtonContainer button {
+    margin-top: 2%; /* Add some top margin to create space between the button and other elements */
+    font-size: 16px; /* Adjust the font size */
+    padding: 10px 20px; /* Adjust the padding for better button appearance */
+    border-radius: 5px; /* Add border radius for rounded corners */
+}
+
+.addCowButtonContainer button:focus {
+    outline: none; /* Remove focus outline */
+}

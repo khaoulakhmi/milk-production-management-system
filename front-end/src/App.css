@@ -1,0 +1,14 @@
+.leftPanel
+{
+  width: 15%;
+  float: left;
+}
+* {
+background-color: #E2E8F0;
+}
+
+.rightPanel
+{
+  width: 85%;
+  float: right;
+}

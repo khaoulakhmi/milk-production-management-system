@@ -1,0 +1,17 @@
+# Node.js specific
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Compiled output
+/dist/
+/build/
+
+# IDE/Editor specific
+.vscode/
+.idea/
+.env
+# Operating System specific
+.DS_Store
+Thumbs.db
