@@ -14,13 +14,14 @@
   
   
   }
-  .sidebar-icon {
+  .sidebar a {
+    display: block;
     padding: 10px;
     cursor: pointer;
     color: #319795;
   }
   
-  .sidebar-icon.active {
+  div a.active {
     background-color: #2C7A7B;
     color: #f9fefd;
   

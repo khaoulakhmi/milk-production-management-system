@@ -17,15 +17,15 @@ export const Dashboard = () => {
     const renderRightPanel = () => {
         switch (activeOption) {
           case 'Cow':
-            return <Cow/>;
+            return <Route path="/" element={<Cow/>}/>;
           case 'Medical Exam':
-            return <MedicalExam/>;
+            return <Route path="/MedicalExam" element={<MedicalExam/>}/>;
           case 'Birth':
-              return <Birth/>;
+              return <Route path="/Birth" element={<Birth/>}/>;
           case 'Milk Production':
-              return  <MilkProduction/>;
+              return <Route path="/MilkProduction" element={<MilkProduction/>}/> ;
           default :
-              return <Cow/>;
+              return <Route path="/" element={<Cow/>}/>;
         }
     }
     return(
@@ -35,7 +35,13 @@ export const Dashboard = () => {
             <Sidebar onIconClick={handleIconClick}/>
             </div>
             <div className="rightPanel">
-               {renderRightPanel()}
+              <Routes>
+              <Route path="/" element={<Cow/>}/>
+              <Route path="/MedicalExam" element={<MedicalExam/>}/>
+              <Route path="/Birth" element={<Birth/>}/>
+              <Route path="/MilkProduction" element={<MilkProduction/>}/>
+              </Routes>
+              
             </div>
         </div>
         </>
